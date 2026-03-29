@@ -1,5 +1,3 @@
-/* IceNET Robotics 2026 */
-
 #include <iostream>
 
 #include "gui.h"
