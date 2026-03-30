@@ -42,18 +42,17 @@ class gui : public QWidget
 {
     Q_OBJECT
 
-    QPlainTextEdit *m_mainConsole;
-
+    QPlainTextEdit *m_mainConsoleOutput;
 
 private slots:
 
     void setupWindow();
+    void setupMainConsole();
+    void printToMainConsole(const QString &message);
 
 public:
 
     gui();
     ~gui();  /* implicitly virtual because QWidget::~QWidget() is virtual */
-
-private slots:
 
 };

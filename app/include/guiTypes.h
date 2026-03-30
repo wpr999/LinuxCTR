@@ -12,3 +12,10 @@ typedef struct
     uint32_t yUnit;
 } mainWindowType;
 
+typedef struct
+{
+    uint32_t xPosition;
+    uint32_t yPosition;
+    uint32_t xSize;
+    uint32_t ySize;
+} mainConsoleType;
